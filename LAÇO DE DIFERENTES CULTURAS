@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Título da página</title>
+</head>
+<style>
+head {
+        content:"";
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        opacity:0;
+        tranform:scaley(2);
+        transition:1s;
+        border-top:2px solid crimson;
+        border-button:2px solid crimson;
+        
+        
+  
+    }
+    a{
+   animation: animation 10s
+   ease infinite;
+   display:flex;
+   color: black;
+   border-radius:1rem;
+    justify-content:center;
+   background:( to bottom,
+      #ff1493,#ffff00,#11aee7,#0000cd);
+         }
+         @keyframes animation{
+             to{
+                 transform: translateX
+                 (100%);
+             }
+             from{
+                 tranform: tranlateX
+                 (-100%)
+             }
+         }
+    
+</style>
+<body>
+    <center><fieldset>
+        <legend>ola</legend>
+        <h1 id="a">TECNOLOGIA</h1>
+    <fieldset >
+  <button style="color: white">  <a href="php.html" style="border-radius:1rem">tecnologia</a></button>
+     <button><a href="Alarms\Milton.html">informações</a></button><br><br>
+   <button> <a href="o.html">notícias</a></button>
+  <button> <a href="mensagem.html">mensagem</a></button>
+  </fieldset>
+  </fieldset>
+    <br><br>
+    <h1></h1><h1>
+    <br><br>
+    <img src="Alarms/al.jpg" alt="" width="350" height="250">
+    <h1>parabéns você aderiu ao nossos servicos 🏠😊😂😊</h1>
+    <br><br>
+   <a href="Alarms/Milton.html"> informações sobre o site</a>
+   <br><br>
+   <h2>Classificação do site</h2>
+   <label style="color:green"> gosto do site</label>
+   <input type="checkbox" name="" id="" placeholder=><br>
+   <label style="color:red">não gosto</label>
+   
+ <input type="checkbox" name="" id="">
+ <br><br>
+ <a href="auto.html">inicio</a>
+  </center>
+   
+</body>
+</html>
